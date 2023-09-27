@@ -3,6 +3,10 @@ import "./Home.css";
 import Products from "../Products/Products";
 import Banner from "../Banner/Banner";
 import NewProduct from "../Products/NewProduct";
+import SmallBanner from "../SmallBaner/SmallBanner";
+import Smallbanner02 from "../SmallBanner02/Smallbanner02";
+import Newsletter from "../Newsletter/Newsletter";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
@@ -57,6 +61,8 @@ const Home = () => {
         <Products />
         <Banner />
         <NewProduct />
+        <SmallBanner />
+        <Smallbanner02 />
       </section>
     </div>
   );

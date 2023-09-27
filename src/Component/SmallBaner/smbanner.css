@@ -1,0 +1,9 @@
+#sm-banner .banner-box {
+  background-image: url(../../../public//immage//banner/b17.jpg);
+
+  background-position: center;
+}
+
+#sm-banner .banner-box2 {
+  background-image: url("../../../public//immage//banner/b10.jpg");
+}

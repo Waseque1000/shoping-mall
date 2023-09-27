@@ -1,33 +1,3 @@
 #banner {
-  width: 100%;
-  height: 30vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
   background-image: url(../../../public//immage/banner/b2.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.normal {
-  font-size: 14px;
-  font-weight: 600;
-  padding: 14px 30px;
-  color: #000;
-  background-color: #fff;
-  cursor: pointer;
-  border-radius: 4px;
-  border: none;
-  outline: none;
-  transition: 0.2s ease;
-  margin-top: 20px;
-  margin-bottom: -178px;
-}
-
-.normal:hover {
-  background-color: #088178;
-  color: #fff;
 }

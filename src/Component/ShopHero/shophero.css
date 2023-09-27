@@ -1,0 +1,5 @@
+.hero {
+  background-image: url("../../../public//immage/banner/b1.jpg");
+
+  background-size: cover;
+}

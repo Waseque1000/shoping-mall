@@ -1,0 +1,22 @@
+#banner3 .banner-box {
+  min-width: 26%;
+  height: 25vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(../../../public/immage/banner/b7.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#banner3 .banner-box2 {
+  background-image: url(../../../public/immage/banner/b4.jpg);
+}
+
+#banner3 .banner-box3 {
+  background-image: url(../../../public/immage/banner/b18.jpg);
+}
