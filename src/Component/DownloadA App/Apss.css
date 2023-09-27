@@ -1,0 +1,22 @@
+#app h1 {
+  text-align: center;
+}
+
+#app a {
+  text-decoration: none;
+  color: #088178;
+}
+
+#app a:hover {
+  text-decoration: underline;
+}
+
+#app .video {
+  width: 70%;
+  margin: 1rem auto;
+}
+
+#app .video video {
+  width: 100%;
+  border-radius: 20px;
+}

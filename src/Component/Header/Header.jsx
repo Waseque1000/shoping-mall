@@ -71,7 +71,7 @@ const Navbar = () => {
               </Link>
 
               <Link
-                to="/blogs"
+                to="/about"
                 onClick={closeMenu}
                 className="block  text-[17px] font-bold mt-4 lg:inline-block lg:mt-0  hover:text-gray-400 lg:active:border lg:border-green-600 lg:active:p-4"
               >
