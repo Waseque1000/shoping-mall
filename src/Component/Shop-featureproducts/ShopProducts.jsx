@@ -5,12 +5,14 @@ const ShopProducts = () => {
     <div className="lg:pb-20  pl-10 pr-10 lg:mt-20">
       {/* section -02 */}
       <div className="text-black lg:mb-10 ">
-        <h1 className="text-6xl font-bold text-center">Featured Products</h1>
-        <p className="text-2xl text-center lg:mt-2">
+        <h1 className="lg:text-6xl text-3xl mt-3 mb-4 font-bold text-center">
+          Featured Products
+        </h1>
+        <p className="lg:text-2xl mb-4 text-center lg:mt-2">
           Summer Collection New Modern Design
         </p>
       </div>
-      <div className=" grid grid-rows-2 lg:pt-10 grid-flow-col gap-4">
+      <div className=" grid grid-rows-2 lg:pt-10 lg:grid-flow-col  gap-4">
         <div className="pro border lg:mb-5">
           <img src="../../../public/immage/products/f1.jpg" alt="product" />
           <div className="des">
@@ -173,8 +175,8 @@ const ShopProducts = () => {
           </a>
         </div>
       </div>
-      <div className=" grid grid-rows-2 lg:pt-10 grid-flow-col gap-4">
-        <div className="pro border border lg:mb-5">
+      <div className=" grid grid-rows-2 lg:pt-10 lg:grid-flow-col  gap-4 pb-7">
+        <div className="pro border   lg:mb-5">
           <img src="../../../public/immage/products/n1.jpg" alt="product" />
           <div className="des">
             <span className="text-[#606063] lg:pl-9 text-1xl">Adidas</span>

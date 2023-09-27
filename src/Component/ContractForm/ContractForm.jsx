@@ -1,15 +1,58 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import {
+  GoogleAuthProvider,
+  createUserWithEmailAndPassword,
+  getAuth,
+  signInWithPopup,
+} from "firebase/auth";
+import app from "../FireBase/Firebase.config";
+const auth = getAuth(app);
 
 const ContractForm = () => {
+  const [ok, setOk] = useState("");
+  const handelSubmit = (event) => {
+    setOk(" ");
+    event.preventDefault();
+    const form = event.target;
+    const email = form.email.value;
+    const password = form.password.value;
+    console.log(email, password);
+    createUserWithEmailAndPassword(auth, email, password)
+      .then((result) => {
+        const logedUser = result.user;
+        console.log(logedUser);
+
+        alert("Thank you for your interest,, We will reply very soon");
+        form.reset();
+      })
+      .catch((error) => {
+        console.log(error.message);
+      });
+
+    //! google
+  };
+  const google = () => {
+    const provider = new GoogleAuthProvider();
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        const google = result.user;
+        console.log(google);
+        alert("Thank you for your interest,, We will reply very soon");
+      })
+      .catch((error) => {
+        console.log(error.message);
+      });
+  };
   return (
     <div className=" flex items-center justify-center bg-gray-100">
       <div className="bg-white p-8 rounded shadow-md w-96">
         <h2 className="text-2xl text-black font-semibold mb-4">Contact Us</h2>
-        <form>
+        <form onSubmit={handelSubmit}>
           <div className="mb-4">
             <label
               htmlFor="name"
-              className="block text-sm font-medium text-gray-700"
+              className="block text-sm font-medium text-black"
             >
               Name
             </label>
@@ -24,7 +67,7 @@ const ContractForm = () => {
           <div className="mb-4">
             <label
               htmlFor="email"
-              className="block text-sm font-medium text-gray-700"
+              className="block text-sm font-medium text-black"
             >
               Email
             </label>
@@ -38,19 +81,22 @@ const ContractForm = () => {
           </div>
           <div className="mb-4">
             <label
-              htmlFor="message"
-              className="block text-sm font-medium text-gray-700"
+              htmlFor="password"
+              className="block text-sm font-medium text-black"
             >
-              Message
+              Password
             </label>
-            <textarea
-              id="message"
-              name="message"
-              rows="4"
+            <input
+              id="password"
+              type="password"
+              name="password"
               className="mt-1 bg-white p-2 w-full border rounded-md"
-              placeholder="Your message here..."
-            ></textarea>
+              placeholder="Password"
+            ></input>
           </div>
+          <Link onClick={google} className="text-red-500">
+            Log in with <span>Google</span>
+          </Link>
           <div className="mt-4">
             <button
               type="submit"
@@ -58,6 +104,7 @@ const ContractForm = () => {
             >
               Submit
             </button>
+            <p className="text-1xl text-green-700">{ok}</p>
           </div>
         </form>
       </div>

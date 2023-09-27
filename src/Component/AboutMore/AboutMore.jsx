@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 
 const AboutMore = () => {
   return (
-    <section id="about-us" className="section-p1 lg:mt-4 flex items-center">
+    <section id="about-us" className="section-p1 lg:mt-4 lg:flex  items-center">
       <img
-        className="shadow-lg rounded-xl w-[48%]"
+        className="shadow-lg rounded-xl lg:w-[48%]"
         src="../../../public/immage/about/a6.jpg"
         alt="aboutUs"
       />
 
-      <div className=" lg:pl-10 lg:pr-9">
+      <div className=" lg:pl-10 lg:pr-9 pl-3 pr-3 ">
         <h2 className="text-black text-2xl font-bold">Who We Are?</h2>
         <p className="text-black text-1xl items-center">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
@@ -27,7 +27,7 @@ const AboutMore = () => {
 
         <br />
         <br />
-        <div className="text-red-600 font-bold">
+        <div className="text-red-600 pl-2 pr-2 font-bold">
           <marquee>
             Between vacations, many daydream about what adventures the next trip
             holds. You can spend your days switching back and forth from looking

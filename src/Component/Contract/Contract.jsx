@@ -12,7 +12,6 @@ const Contract = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
       </section>
-      <ContractMap />
       <ContractForm />
     </div>
   );

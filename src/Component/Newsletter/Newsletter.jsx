@@ -6,9 +6,9 @@ const Newsletter = () => {
   return (
     <section
       id="newsletter"
-      className="flex pt-20  justify-between items-center lg:pb-20 bg-[#041e42] section-p1 section-m1 "
+      className="lg:flex pt-20 pb-20  justify-between items-center lg:pb-20 bg-[#041e42] section-p1 section-m1 "
     >
-      <div className="newstext  lg:pl-10">
+      <div className="newstext pb-11 p-4 lg:pl-10">
         <h4 className="text-2xl text-white font-bold">
           Sign Up For Newsletters
         </h4>
@@ -18,7 +18,7 @@ const Newsletter = () => {
         </p>
       </div>
 
-      <div className="form lg:pl-96  flex w-[100%]">
+      <div className="form lg:pl-96 p-4   flex w-[100%]">
         <input
           className="w-[80%] p-3 rounded-md text-1xl"
           type="text"

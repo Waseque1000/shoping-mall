@@ -12,16 +12,20 @@ import Feature from "../Feature/Feature";
 const Home = () => {
   return (
     <div className=" bg-white  ">
-      <section className="lg:pl-40" id="hero">
-        <h4 className="hh4 text-2xl font-bold">Trade-in-offer</h4>
-        <h2 className="text-4xl text-black font-semibold">
-          Supper value deals
-        </h2>
-        <h1 className="hn1 text-7xl font-semibold lg:mb-5">On all products</h1>
-        <p className="text-2xl text-black lg:mb-3">
-          Save more with coupons & up to 70% off!
-        </p>
-        <button className="btn-01">SHOP NOW</button>
+      <section className="lg:pl-40   " id="hero">
+        <div className="ml-[52px] ">
+          <h4 className="hh4 text-2xl font-bold">Trade-in-offer</h4>
+          <h2 className="text-4xl text-black lg:text-black font-semibold">
+            Supper value deals
+          </h2>
+          <h1 className="hn1 text-7xl font-semibold lg:mb-5">
+            On all products
+          </h1>
+          <p className="text-2xl text-black lg:mb-3">
+            Save more with coupons & up to 70% off!
+          </p>
+          <button className="btn-01">SHOP NOW</button>
+        </div>
       </section>
       {/* new section */}
       <section>
