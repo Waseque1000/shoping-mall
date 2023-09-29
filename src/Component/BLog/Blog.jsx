@@ -1,6 +1,13 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
+import img1 from "../../../public/immage/blog/b1.jpg";
+import img2 from "../../../public/immage/blog/b2.jpg";
+import img3 from "../../../public/immage/blog/b3.jpg";
+import img4 from "../../../public/immage/blog/b4.jpg";
+import img5 from "../../../public/immage/blog/b5.jpg";
+import img6 from "../../../public/immage/blog/b6.jpg";
+import img7 from "../../../public/immage/blog/b7.jpg";
 
 const Blog = () => {
   return (
@@ -10,7 +17,7 @@ const Blog = () => {
         <div className="blog-img lg:w-[50%]">
           <img
             className=" mt-10 lg:w-[100%] h-[259px] w-[100%]  lg:h-[300px] shadow-xxl object-cover"
-            src="../../../public/immage/blog/b1.jpg"
+            src={img1}
           />
         </div>
 
@@ -31,7 +38,7 @@ const Blog = () => {
         <div className="blog-img lg:w-[50%]">
           <img
             className=" mt-10 lg:w-[100%] h-[259px] w-[100%]  lg:h-[300px] shadow-xxl object-cover"
-            src="../../../public/immage/blog/b2.jpg"
+            src={img2}
           />
         </div>
 
@@ -52,7 +59,7 @@ const Blog = () => {
         <div className="blog-img lg:w-[50%]">
           <img
             className=" mt-10 lg:w-[100%] h-[259px] w-[100%]  lg:h-[300px] shadow-xxl object-cover"
-            src="../../../public/immage/blog/b3.jpg"
+            src={img3}
           />
         </div>
 
@@ -73,7 +80,7 @@ const Blog = () => {
         <div className="blog-img lg:w-[50%]">
           <img
             className=" mt-10 lg:w-[100%] h-[259px] w-[100%]  lg:h-[300px] shadow-xxl object-cover"
-            src="../../../public/immage/blog/b4.jpg"
+            src={img4}
           />
         </div>
 
@@ -94,7 +101,7 @@ const Blog = () => {
         <div className="blog-img lg:w-[50%]">
           <img
             className=" mt-10 lg:w-[100%] h-[259px] w-[100%]  lg:h-[300px] shadow-xxl object-cover"
-            src="../../../public/immage/blog/b5.jpg"
+            src={img5}
           />
         </div>
 
@@ -115,7 +122,7 @@ const Blog = () => {
         <div className="blog-img lg:w-[50%]">
           <img
             className=" mt-10 lg:w-[100%] h-[259px] w-[100%]  lg:h-[300px] shadow-xxl object-cover"
-            src="../../../public/immage/blog/b6.jpg"
+            src={img6}
           />
         </div>
 
@@ -136,7 +143,7 @@ const Blog = () => {
         <div className="blog-img lg:w-[50%]">
           <img
             className=" mt-10 lg:w-[100%] h-[259px] w-[100%]  lg:h-[300px] shadow-xxl object-cover"
-            src="../../../public/immage/blog/b7.jpg"
+            src={img7}
           />
         </div>
 

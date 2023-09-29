@@ -1,4 +1,5 @@
 import React from "react";
+import giff from "../../../public/immage/about/ezgif.com-video-to-gif.gif";
 
 const Giff = () => {
   return (
@@ -6,7 +7,7 @@ const Giff = () => {
       <div className="hero min-h-screen bg-white">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
-            src="../../../public/immage/about/ezgif.com-video-to-gif.gif"
+            src={giff}
             className="max-w-3xl rounded-lg w-[100%] shadow-2xl"
           />
           <div>

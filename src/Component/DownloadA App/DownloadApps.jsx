@@ -1,6 +1,7 @@
 import React from "react";
 import "./Apss.css";
 import { Link } from "react-router-dom";
+import video from "../../../public/immage/about/1.mp4";
 
 const DownloadApps = () => {
   return (
@@ -10,12 +11,7 @@ const DownloadApps = () => {
           Download Our <Link href="#">App</Link>
         </h1>
         <div className="video">
-          <video
-            src="../../../public/immage/about/1.mp4"
-            autoPlay
-            muted
-            loop
-          ></video>
+          <video src={video} autoPlay muted loop></video>
         </div>
       </section>
     </div>

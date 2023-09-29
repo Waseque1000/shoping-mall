@@ -1,13 +1,14 @@
 import React from "react";
 import "./aboutMore.css";
 import { Link } from "react-router-dom";
+import img from "../../../public/immage/about/a6.jpg";
 
 const AboutMore = () => {
   return (
     <section id="about-us" className="section-p1 lg:mt-4 lg:flex  items-center">
       <img
         className="shadow-lg rounded-xl lg:w-[48%]"
-        src="../../../public/immage/about/a6.jpg"
+        src={img}
         alt="aboutUs"
       />
 

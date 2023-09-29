@@ -1,5 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../../../public/immage/logo.png";
+import p1 from "../../../public/immage/pay/play.jpg";
+import p2 from "../../../public/immage/pay/app.jpg";
+import p3 from "../../../public/immage/pay/pay.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -15,11 +19,7 @@ const Footer = () => {
     <footer className="bg-white pl-3 pb-10 pr-3 -mt-10 pt-10">
       <div className="section-p1 flex flex-wrap  justify-between lg:pl-8 lg:mt-8 lg:pr-8">
         <div className=" flex flex-col lg:mb-14  ">
-          <img
-            className="h-50 w-52"
-            src="../../../public/immage/logo.png"
-            alt="logo"
-          />
+          <img className="h-50 w-52" src={logo} alt="logo" />
           <h4 className="text-2xl pb-6 mt-7 text-black font-semibold">
             Contact
           </h4>
@@ -127,31 +127,19 @@ const Footer = () => {
           <div className="">
             <Link>
               {" "}
-              <img
-                className="mb-5 mt-2"
-                src="../../../public/immage/pay/play.jpg"
-                alt="logo"
-              />
+              <img className="mb-5 mt-2" src={p1} alt="logo" />
             </Link>
 
             <Link>
               {" "}
-              <img
-                className="mb-5 mt-2"
-                src=" ../../../../../public/immage/pay/app.jpg"
-                alt="logo"
-              />
+              <img className="mb-5 mt-2" src={p2} alt="logo" />
             </Link>
           </div>
           <p className="text-1xl font-semibold text-black">
             Secured Payment Gateways
           </p>
           <Link className=" ">
-            <img
-              className="mt-5"
-              src="../../../public/immage/pay/pay.png"
-              alt="logo"
-            />
+            <img className="mt-5" src={p3} alt="logo" />
           </Link>
         </div>
       </div>

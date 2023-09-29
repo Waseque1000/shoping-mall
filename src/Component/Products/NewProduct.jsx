@@ -1,4 +1,12 @@
 import React from "react";
+import imgn1 from "../../../public/immage/products/n1.jpg";
+import imgn2 from "../../../public/immage/products/n2.jpg";
+import imgn3 from "../../../public/immage/products/n3.jpg";
+import imgn4 from "../../../public/immage/products/n4.jpg";
+import imgn5 from "../../../public/immage/products/n5.jpg";
+import imgn6 from "../../../public/immage/products/n6.jpg";
+import imgn7 from "../../../public/immage/products/n7.jpg";
+import imgn8 from "../../../public/immage/products/n8.jpg";
 
 const NewProduct = () => {
   return (
@@ -14,7 +22,7 @@ const NewProduct = () => {
       </div>
       <div className="grid grid-rows-2   lg:pt-10 lg:grid-flow-col gap-4">
         <div className="pro border   lg:mb-5">
-          <img src="../../../public/immage/products/n1.jpg" alt="product" />
+          <img src={imgn1} alt="product" />
           <div className="des">
             <span className="text-[#606063] pl-6 lg:pl-9 text-1xl">Adidas</span>
             <h5 className="text-black pl-4 lg:pl-6  text-2xl">
@@ -30,7 +38,7 @@ const NewProduct = () => {
           </a>
         </div>
         <div className="pro border">
-          <img src="../../../public/immage/products/n2.jpg" alt="product" />
+          <img src={imgn2} alt="product" />
           <div className="des">
             <span className="text-[#606063] pl-6 lg:pl-9 text-1xl">Adidas</span>
             <h5 className="text-black pl-4 lg:pl-6 text-2xl">
@@ -46,7 +54,7 @@ const NewProduct = () => {
           </a>
         </div>
         <div className="pro border">
-          <img src="../../../public/immage/products/n3.jpg" alt="product" />
+          <img src={imgn3} alt="product" />
           <div className="des">
             <span className="text-[#606063] pl-6 lg:pl-9 text-1xl">Adidas</span>
             <h5 className="text-black pl-4 lg:pl-6 text-2xl">
@@ -62,7 +70,7 @@ const NewProduct = () => {
           </a>
         </div>
         <div className="pro border">
-          <img src="../../../public/immage/products/n4.jpg" alt="product" />
+          <img src={imgn4} alt="product" />
           <div className="des">
             <span className="text-[#606063] pl-6 lg:pl-9 text-1xl">Adidas</span>
             <h5 className="text-black pl-4 lg:pl-6 text-2xl">
@@ -78,7 +86,7 @@ const NewProduct = () => {
           </a>
         </div>
         <div className="pro border">
-          <img src="../../../public/immage/products/n5.jpg" alt="product" />
+          <img src={imgn5} alt="product" />
           <div className="des">
             <span className="text-[#606063] pl-6 lg:pl-9 text-1xl">Adidas</span>
             <h5 className="text-black pl-4 lg:pl-6 text-2xl">
@@ -95,7 +103,7 @@ const NewProduct = () => {
         </div>
 
         <div className="pro border">
-          <img src="../../../public/immage/products/n6.jpg" alt="product" />
+          <img src={imgn6} alt="product" />
           <div className="des">
             <span className="text-[#606063] pl-6 lg:pl-9 text-1xl">Adidas</span>
             <h5 className="text-black pl-4 lg:pl-6 text-2xl">
@@ -111,7 +119,7 @@ const NewProduct = () => {
           </a>
         </div>
         <div className="pro border">
-          <img src="../../../public/immage/products/n7.jpg" alt="product" />
+          <img src={imgn7} alt="product" />
           <div className="des">
             <span className="text-[#606063] pl-6 lg:pl-9 text-1xl">Adidas</span>
             <h5 className="text-black pl-4 lg:pl-6 text-2xl">
@@ -127,7 +135,7 @@ const NewProduct = () => {
           </a>
         </div>
         <div className="pro border">
-          <img src="../../../public/immage/products/n8.jpg" alt="product" />
+          <img src={imgn8} alt="product" />
           <div className="des">
             <span className="text-[#606063] pl-6 lg:pl-9 text-1xl">Adidas</span>
             <h5 className="text-black pl-4 lg:pl-6 text-2xl">
