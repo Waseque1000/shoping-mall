@@ -28,7 +28,7 @@ const Footer = () => {
             <Link to={"https://wasequearafat.xyz/"}>Waseque Arafat</Link>
           </Link>
           <p className="text-1xl font-semibold text-black">
-            <strong>Address: </strong>Azimpur LalBag , Dhaka
+            <strong>Address: </strong>New Delhi , India
           </p>
           <p className="text-1xl font-semibold text-black">
             <strong>Phone: </strong>+0123456789
